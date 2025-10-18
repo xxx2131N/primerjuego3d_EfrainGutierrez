@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerMovement: MonoBehaviour
 {
     private Vector3 fuerzaPorAplicar;   
     private float tiempoDesdeUltimaFuerza;
