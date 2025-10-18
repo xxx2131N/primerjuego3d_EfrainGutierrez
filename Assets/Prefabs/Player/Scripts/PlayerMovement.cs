@@ -17,10 +17,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private void Update()
     {
         float direccion = Input.GetAxis("Horizontal");
-        transform.Translate(direccion*velocidadLateral
-        *Time.deltaTime,0,0);
+        transform.Translate(direccion * velocidadLateral * Time.deltaTime, 0, 0);
     }
-
+    
     private void FixedUpdate()
     {
         tiempoDesdeUltimaFuerza += Time.fixedDeltaTime;
