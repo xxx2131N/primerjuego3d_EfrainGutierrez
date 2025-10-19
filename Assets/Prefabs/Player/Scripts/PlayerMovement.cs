@@ -32,6 +32,11 @@ public class PlayerMovement: MonoBehaviour
 
         }
     }
+
+    public void MovePlayer(float input)
+    {
+        SetStrategy.Move(transform,velocidadLateral,0);
+    }
     
     public void SetStrategy(IMovimientoEstrategico estrategia)
     {

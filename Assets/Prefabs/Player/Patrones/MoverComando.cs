@@ -14,6 +14,7 @@ public class MoverComando : IComando
     public void Execute()
     {
         playerMovement.SetStrategy(new DesplazamientoLateral());
+     
     }
     
 }
